@@ -9,7 +9,6 @@ public class ProductsappApplication {
 	public static void main(String[] args) {
 
 		System.setProperty("spring.profiles.active","dev");
-
 		SpringApplication.run(ProductsappApplication.class, args);
 	}
 
