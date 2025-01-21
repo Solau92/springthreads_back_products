@@ -28,11 +28,11 @@ public class Size {
 	String description;
 
 	@Column(name = "creation_date", nullable = false)
-	@DateTimeFormat(pattern="yyy-mm-dd")
+	@DateTimeFormat(pattern="yyyy-mm-dd")
 	LocalDate creationDate;
 
 	@Column(name = "change_date", nullable = false)
-	@DateTimeFormat(pattern="yyy-mm-dd")
+	@DateTimeFormat(pattern="yyyy-mm-dd")
 	LocalDate changeDate;
 
 }
