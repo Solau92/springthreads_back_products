@@ -37,17 +37,11 @@ public class Product {
 	@DateTimeFormat(pattern="yyy-mm-dd")
 	LocalDate creationDate;
 
-	@Column(name = "creation_date", nullable = false)
+	@Column(name = "change_date", nullable = false)
 	@DateTimeFormat(pattern="yyy-mm-dd")
 	LocalDate changeDate;
 
 	@Column(name = "picture")
 	String picture;
-
-
-
-
-
-
 
 }
